@@ -1,0 +1,617 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+header .drop {
+    /* background-color: turquoise; */
+    cursor: pointer;
+}
+
+.navigation #mod input {
+    padding: 8px;
+    padding-left: 14px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgrey;
+}
+
+.navigation button {
+    border: 1px solid lightgrey;
+    width: 70%;
+}
+
+.navigation .icon a{
+    color: rgb(92, 91, 91);
+    margin: 5px;
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+.navigation {
+    /* background-color: lightseagreen; */
+    padding: 10px;
+}
+
+.navigation img {
+    width: 60%;
+    padding-top: 5px;
+}
+
+.navigation .button {
+    width: 10%;
+    outline: none;
+    border: none;
+}
+
+.navigation .clear {
+    /* width: 10%; */
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    /* background-color: red; */
+}
+
+.modal-content {
+    width: 90%;
+    margin: 3.5rem;
+    /* height: vh; */
+}
+
+.modal-body h5 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.modal-body p {
+    font-size: 12px;
+}
+
+.modal-body a {
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 14px;
+}
+
+.modal-body .list-group-item {
+    /* background-color: red; */
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+.modal-body .list-group {
+    overflow-y: scroll;
+    height: 40vh;
+    margin-top: 5px;
+    /* width: 100%; */
+}
+
+.navigation #mod h6 {
+    padding-top: 10px;
+    font-weight: 600;
+    /* padding-left: 1px; */
+    /* font-size: 14px; */
+    /* color: rgb(113, 113, 113); */
+}
+
+.modal-body input {
+    /* background-color: red; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.navbar .button {
+    padding: 8px 32px;
+    border: 1px solid lightgray;
+    background-color: rgb(16, 179, 16);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.navbar a {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: black;
+}
+
+nav .nav-link:hover {
+    color: #0aad0a;
+}
+
+.offcanvas-body .btn{
+    background-color:  #0aad0a;
+    color: white;
+    font-weight: 600;
+    padding: 5px 6.8rem;
+}
+
+
+/* .navbar .dropdown-item{
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.carousel .image {
+    background: url(./assets/images/slide-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
+
+.carousel .image2 {
+    background: url(./assets/images/slider-2.jpg);
+    margin-bottom: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    border-radius: 10px;
+}
+
+.carousel h1 {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: left;
+    color: rgb(0, 30, 43);
+
+}
+
+.carousel .text {
+    color: rgb(99, 145, 8);
+}
+
+.carousel p {
+    color: rgb(88, 100, 112);
+    font-weight: 500;
+    text-align: left;
+    /* text-transform: capitalize; */
+    font-size: 18px;
+}
+
+.carousel a {
+    text-align: left;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.carousel .banner {
+    text-align: left;
+    padding-top: 8rem;
+    padding-left: 4rem;
+}
+
+
+#mod2 p{
+    font-size: 13px;
+    color: black;
+    /* font-weight: 600; */
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+#mod2 input{
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 2px;
+}
+#mod2{
+    text-align: left;
+}
+
+#search{
+    width: 100%;
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+#search1{
+    width: 100%;
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+
+/* FEATURE */
+
+
+.feature h3 {
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    /* background-color: red; */
+    color: rgb(0, 30, 43);
+}
+
+
+.feature p{
+    font-size: 19px;
+}
+
+
+
+
+/* BANNER SECTION */
+
+.gro .text {
+    /* position: absolute; */
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.gro .text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    color: rgb(0, 30, 43);
+}
+
+.gro .text p {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+}
+
+.gro .text a {
+    color: white;
+    background-color: rgb(0, 30, 43);
+    font-size: 14px;
+    padding: 8px 18px;
+    font-weight: 700;
+}
+
+.gro .card .im {
+    background-image: url(./assets/images/menu-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 32vh;
+    border-radius: 10px;
+
+}
+
+.gro .card .im2 {
+    background-image: url(./assets/images/grocery-banner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 32vh;
+    border-radius: 10px;
+}
+
+.gro .card {
+    border: none;
+}
+
+
+
+/* POPULAR PRODUCTS */
+
+.product h5 {
+    margin-top: 2rem;
+    /* background-color: red; */
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 26px;
+    /* font-weight: 600; */
+    color: #001e2b;
+}
+
+.product p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(102, 102, 102);
+}
+
+.product h6 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: rgb(61, 61, 61);
+}
+
+.product .star i {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+/* .product .cart a {
+    background-color: lightseagreen;
+    margin: auto;
+} */
+
+
+.product span .btn {
+    padding: 2px 10px;
+    background-color: #0aad0a;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #0aad0a;
+}
+
+.product span .btn:hover {
+    /* box-shadow: 1px 0px 5px 10px #8db68d; */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.product .price {
+    font-size: 13px;
+    /* padding-top: 5rem; */
+    color: rgb(0, 30, 43);
+    /* font-weight: 600; */
+}
+
+
+/* POPULAR PRODUCTS ENDS */
+/* SALE */
+
+.sale h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 6rem;
+    /* background-color: red; */
+}
+
+.sale .deal {
+    background: url(./assets/images/banner-deal.jpg);
+    background-position: center;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.sale .deal .text {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+.sale .text b {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.sale p,
+h6 {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sale p {
+    font-weight: 800;
+}
+
+.sale p:hover {
+    color: #0aad0a;
+}
+
+.sale .btn {
+    padding: 6px 62px;
+    background-color: #0aad0a;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #f0f3f2;
+    padding: 3.5rem;
+}
+
+.footer li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+}
+
+.footer li a:hover {
+    color: #0aad0a;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+
+.footer h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:320px) {
+    /* .navigation img{
+        width: 250%;
+        
+    } */
+    .footer li a {
+        font-size: 13px;
+    }
+
+    .footer h5 {
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+
+    .footer {
+        padding: 0rem;
+    }
+
+    .footer .text {
+        font-size: 10px;
+        /* display: block; */
+    }
+    .sale .btn{
+        font-size: 11px;
+        padding: 8px 6rem;
+    }
+    .carousel .banner{
+        padding: 3rem;
+        padding-left: 1.5rem;
+    }
+    .carousel h1{
+        font-size: 30px;
+    }
+    .carousel p{
+        font-size: 13px;
+    }
+    .carousel a{
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+    .gro .text{
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+    }
+    .gro .text h4{
+        font-size: 20px;
+    }
+    #search{
+        display: none;
+    }
+    #location{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+  
+}
+
+/* RESPONSIVE TILL 562PX  */
+
+
+@media screen and (min-width:319px) and (max-width: 576px) {
+    .carousel .banner {
+        padding-top: 3.5rem;
+        padding-left: 2rem;
+    }
+    .carousel h1{
+        font-size: 32px;
+    }
+  
+    .carousel p{
+        font-size: 12px;
+    }
+    .sale .btn{
+        font-size: 13px;
+        /* padding: 8px 11.5rem; */
+    }
+    .feature p{
+        font-size: 10px;
+    }
+    #none{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    #location{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+
+/* RESPONSIVE TILL 768PX */
+
+@media screen and (max-width:768px){
+    /* .carousel .banner{
+        padding-top: 3rem;
+        padding-left: 2rem;
+    }
+    .carousel h1{
+        font-size: 34px;
+    }
+    .carousel .image{
+        height: 70vh;
+    }
+    .carousel .image2{
+        height: 70vh;
+    }
+    .carousel p{
+        font-size: 14px;
+    } */
+    .sale .btn{
+        font-size: 13px;
+        padding: 8px 4.5rem;
+    }
+    .gro .text{
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .feature p{
+        font-size: 12px;
+    }
+    #search{
+        display: none;
+    }
+    #location{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+
+/* RESPONSIVE TILL 992PX */
+
+@media screen and (min-width:992px){
+    /* .carousel .banner{
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+    .carousel h1{
+        font-size: 40px;
+    } */
+    #offcanvas{
+        display: none;
+    }
+}
+

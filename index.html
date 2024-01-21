@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- OWL CAROUSEL CDNJS -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css">
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <title>FreshCart- eCommerce</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="bg-light">
+            <div class="container">
+                <div class="row" id="none">
+                    <div class="col-sm-11">
+                        <h6>Super Value Deals - Save more with coupons</h6>
+                    </div>
+                    <div class="col-1">
+                        <div class="d-flex d-xs-none">
+                            <h6 class="drop dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#drop">English
+                            </h6>
+                            <div class=" dropdown-menu" id="drop">
+                                <li><a href="" class="dropdown-item">Francais</a></li>
+                                <li><a href="" class="dropdown-item">Deustch</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 col-xs-3 col-sm-12 col-md-3 col-lg-3">
+                    <img src="assets/images/freshcart-logo.svg" alt="">
+                </div>
+                <div class="col-5 col-sm-9 col-md-4 col-lg-5 d-xs-none">
+                    <input type="text" placeholder="Search for products" id="search">
+                </div>
+                <div class="col-4 col-sm-2 col-md-3 col-lg-2 d-xs-none">
+                    <button class="btn" data-bs-target="#mod" data-bs-toggle="modal" id="location"> Location</button>
+                    <div class="modal fade" id="mod">
+                        <div class="modal-dialog mt-5">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="modal-body">
+                                        <div class="d-flex">
+                                            <h5>Choose your Delivery Location</h5>
+                                            <button class="button btn btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <p>Enter your address and we will specify the offer area</p>
+                                        <input type="text" placeholder="search your area">
+
+                                        <div class="d-flex justify-content-between ">
+                                            <h6>Search Location </h6>
+                                            <a href="" class="clear">Clear All</a>
+                                        </div>
+                                        <!-- selecting the location -->
+                                        <div class=" list-group">
+                                            <div class=" list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Albama</span>
+                                                        <span>Min:$20</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Alaska</span>
+                                                        <span>Min:$30</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Arizona</span>
+                                                        <span>Min:$50</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>California</span>
+                                                        <span>Min:$29</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Colorado</span>
+                                                        <span>Min:$80</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Florida</span>
+                                                        <span>Min:$90</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Arizona</span>
+                                                        <span>Min:$50</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>California</span>
+                                                        <span>Min:$29</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Colorado</span>
+                                                        <span>Min:$80</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <a href="">
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Florida</span>
+                                                        <span>Min:$90</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-xs-2 col-md-2 col-lg-2 text-end">
+                    <div class="icon">
+                        <span>
+                            <a href=""><i class="fa-regular fa-heart position-relative"></i></a>
+                            <span
+                                class="badge text-bg-success rounded-circle position-absolute translate-middle">5</span>
+                        </span>
+
+                        <a href="" data-bs-target="#mod2" data-bs-toggle="modal"><img src="assets/images/download.png"
+                                alt="" style="width: 8%;"></a>
+                        <div class="container">
+                            <div class="modal" id="mod2">
+                                <div class="modal-dialog">
+                                    <div class="modal-content p-3">
+                                        <div class="modal-header">
+                                            <h3 class="fw-bold fs-5">Sign Up</h3>
+                                            <button class="btn btn-close" style="width: 5%;"
+                                                data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body text-align-left">
+                                            <p>Name</p>
+                                            <input type="text" placeholder="Enter Your Name">
+                                            <p>Email Address</p>
+                                            <input type="text" placeholder="Enter Email Address">
+                                            <p>Password</p>
+                                            <input type="text" placeholder="Enter Password">
+                                            <h6 style="font-size: 12px; text-align: left;">By Signup, you agree to our<a
+                                                    href="" style="color: #0aad0a; font-size: 12px;">Terms of
+                                                    Services</a>&<a href=""
+                                                    style="color: #0aad0a; font-size: 12px;">Privacy Policy.</a>
+                                            </h6>
+                                            <br>
+                                            <button class="btn fw-bold"
+                                                style="background-color: #0aad0a; color: white; width: 25%; text-align: center; font-size: 13px;">Sign
+                                                Up</button>
+                                            <br>
+                                        </div>
+                                        <div class="modal-footer justify-content-evenly">
+                                            <h6 style="font-size: 12px;">Already have an account?<a href=""
+                                                    style="color: #0aad0a; text-decoration: none; font-size: 12px;">Sign
+                                                    In</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <a href=""><i class="fa-solid fa-bag-shopping position-relative"></i></a>
+                        <span
+                            class="badge text-bg-success border border-light rounded-circle position-absolute translate-middle ">1</span>
+                        </span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- <a href="" class="navbar-brand"><img src="assets/images/freshcart-logo.svg" alt=""></a> -->
+            <button class="navbar-toggler" data-bs-target="#tou" data-bs-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start bg-light" id="tou">
+                <div class="offcanvas-header">
+                    <a href="" class="navbar-brand"><img src="assets/images/freshcart-logo.svg" alt=""></a>
+                    <button class=" btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ">
+                        <div  id="offcanvas">
+                            <input type="text" placeholder="Search for products" id="search1">
+                           <br><br>
+                            <button class="btn" data-bs-target="#mod" data-bs-toggle="modal"> Location</button>
+                           <br><br>
+                        </div>
+                        <button class="button dropdown" data-bs-target="#drp" data-bs-toggle="dropdown">
+                            <img src="assets/images/grid.svg" alt="" class=""> All Departments
+                            <ul class="dropdown-menu ms-auto" id="drp">
+                                <li><a href="" class="dropdown-item">Dairy,Bread & Eggs</a></li>
+                                <li><a href="" class="dropdown-item">Snacks & Munchies</a></li>
+                                <li><a href="" class="dropdown-item">Fruits & Vegetables</a></li>
+                                <li><a href="" class="dropdown-item">Cold Drinks & Juices</a></li>
+                                <li><a href="" class="dropdown-item">Breakfast & Instant Food</a></li>
+                                <li><a href="" class="dropdown-item">Bakery & Biscuits</a></li>
+                                <li><a href="" class="dropdown-item">Chicken, Meat &0 Fish</a></li>
+                            </ul>
+                        </button>
+
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle show" data-bs-target="#drop1"
+                                data-bs-toggle="dropdown">home
+                            </a>
+                            <ul class="dropdown-menu" id="drop1">
+                                <li><a href="" class="dropdown-item">home 1</a></li>
+                                <li><a href="" class="dropdown-item">home 2</a></li>
+                                <li><a href="" class="dropdown-item">home 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-target="#drop2"
+                                data-bs-toggle="dropdown">shop</a>
+                            <ul class="dropdown-menu" id="drop2">
+                                <li><a href="" class="dropdown-item">Shop Grid- Filter</a></li>
+                                <li><a href="" class="dropdown-item">Shop Grid- 3 column</a></li>
+                                <li><a href="" class="dropdown-item">Shop List- Filter</a></li>
+                                <li><a href="" class="dropdown-item">Shop- Filter</a></li>
+                                <li><a href="" class="dropdown-item">Shop Wide</a></li>
+                                <li><a href="" class="dropdown-item">Shop Single</a></li>
+                                <li><a href="" class="dropdown-item">Shop Wishlist</a></li>
+                                <li><a href="" class="dropdown-item">Shop Cart</a></li>
+                                <li><a href="" class="dropdown-item">Shop Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-target="#drop3"
+                                data-bs-toggle="dropdown">stores</a>
+                            <ul class="dropdown-menu" id="drop3">
+                                <li><a href="" class="dropdown-item">Store-List </a></li>
+                                <li><a href="" class="dropdown-item">Store-Grid </a></li>
+                                <li><a href="" class="dropdown-item">Store-Single </a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item ">
+                            <a href="" class="nav-link">mega menu</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-target="#drop4"
+                                data-bs-toggle="dropdown">pages</a>
+                            <ul class="dropdown-menu" id="drop4">
+                                <li><a href="" class="dropdown-item">Blog</a></li>
+                                <li><a href="" class="dropdown-item">Blog Simple</a></li>
+                                <li><a href="" class="dropdown-item">Blog Category</a></li>
+                                <li><a href="" class="dropdown-item">About Us</a></li>
+                                <li><a href="" class="dropdown-item">404 Error</a></li>
+                                <li><a href="" class="dropdown-item">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-target="#drop5"
+                                data-bs-toggle="dropdown">account</a>
+                            <ul class="dropdown-menu" id="drop5">
+                                <li><a href="" class="dropdown-item">Sign in</a></li>
+                                <li><a href="" class="dropdown-item">Signup</a></li>
+                                <li><a href="" class="dropdown-item">Forgot Password</a></li>
+                                <li><a href="" class="dropdown-item">My Account</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link">docs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <button class="navbar-toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+        </div>
+    </nav>
+    <hr>
+
+
+    <main>
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel slide" id="crsl" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#crsl" id="crsl" class="active"></button>
+                        <button data-bs-slide-to="1" data-bs-target="#crsl" id="crsl"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="image">
+                                <div class="banner w-50">
+                                    <span class="badge text-bg-warning">Opening Sale Discount 50%</span>
+                                    <h1>SuperMarket For Fresh Grocery</h1>
+                                    <p>Introduced a new model for online grocery shopping and <br>convenient home
+                                        delivery.
+                                    </p>
+                                    <a href="" class="btn btn-dark">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image2">
+                                <div class="banner w-50">
+                                    <span class="badge text-bg-warning">Free Shipping-orders over $100</span>
+                                    <h1>Free Shipping on <br>Orders over <span class="text">$100</span></h1>
+                                    <p>Free shipping to all First-time Customers only, After promotions and
+                                        discounts
+                                        are applied.</p>
+                                    <a href="" class="btn btn-dark"> Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- FEATURED CATEGORY SECTION -->
+
+        <!-- <button class="owl-carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="owl-carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button> -->
+
+
+        <section class="feature">
+            <div class="container">
+                <h3>Featured Categories</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-atta-rice-dal.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Atta, Dal & Rice</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-baby-care.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Baby Care</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-chicken-meat-fish.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Chicken & Fish </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-cleaning-essentials.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Cleaning Essentials </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-pet-care.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Pet Care</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-dairy-bread-eggs.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Dairy Bread & Eggs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-snack-munchies.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Snacks & Munchies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-bakery-biscuits.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Bakery & Biscuits</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-instant-food.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Instant Food</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card w-100 p-1">
+                            <div class="card-body">
+                                <img src="assets/images/category-tea-coffee-drinks.jpg" alt="" class="w-75 m-auto">
+                                <p class="text-center">Tea , Coffee & Milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            // var owl = $('.owl-carousel');
+            // owl.owlCarousel({
+            //     items: 4,
+            //     loop: true,
+            //     margin: 10,
+            //     autoplay: true,
+            //     autoplayTimeout: 2000,
+            //     autoplayHoverPause: true
+            // });
+            // $('.play').on('click', function () {
+            //     owl.trigger('play.owl.autoplay', [1000])
+            // })
+            // $('.stop').on('click', function () {
+            //     owl.trigger('stop.owl.autoplay')
+            // })
+
+
+
+
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+            $('.play').on('click', function () {
+                owl.trigger('play.owl.autoplay', [1000])
+            })
+            $('.stop').on('click', function () {
+                owl.trigger('stop.owl.autoplay')
+            })
+        </script>
+
+
+
+    </main>
+
+
+
+
+
+    <!-- BANNER SECTION  -->
+    <section class="gro">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card mb-2">
+                        <!-- <img src="assets/images/grocery-banner.png" alt=""> -->
+                        <div class="im">
+                            <div class="text">
+                                <h4>Fruits & Vegetables</h4>
+                                <p>Get Upto 30% Off</p>
+                                <a href="" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card">
+                        <!-- <img src="assets/images/grocery-banner-2.jpg" alt=""> -->
+                        <div class="im2">
+                            <div class="text">
+                                <h4>Freshly Baked Buns</h4>
+                                <p>Get Upto 25% Off</p>
+                                <a href="" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- POPULAR PRODUCTS -->
+    <div class="product">
+        <div class="container">
+            <h5 class="">Popular Products</h5>
+            <div class="row g-4 row-cols-lg-5 row-cols-md-3 row-cols-sm-2">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="position-absolute">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href=""><img src="assets/images/product-img-1.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Snack & Munchies</p>
+                                <h6>Haldiram's Sev Bhujia</h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <!-- <p>4.5 (149)</p> -->
+                                    <span class="text-muted small">4.5(149)</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="price">$18 <del class="text-secondary">$24</del></span>
+                                    <span><a href="" class="btn">+ Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="position-absolute">
+                                <span class="badge bg-success">14%</span>
+                            </div>
+                            <a href=""><img src="assets/images/product-img-2.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Bakery & Biscuits</p>
+                                <h6>NutriChoice Digestive</h6>
+                            </div>
+                            <span class="star text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-muted small">4.5 (25)</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="price">$14</span>
+                                <span>
+                                    <a href="" class="btn">+ Add</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-3.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Bakery & Biscuits</p>
+                                <h6>Cadbury 5 Star Chocolate</h6>
+                            </div>
+                            <span class="star text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-muted small">5 (469)</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="price">$32 <del class="text-secondary">$35</del></span>
+                                <span>
+                                    <a href="" class="btn">+ Add</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="position-absolute">
+                                <span class="badge bg-danger">Hot</span>
+                            </div>
+                            <a href=""><img src="assets/images/product-img-4.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Snacks & Munchies</p>
+                                <h6>Onion Flavour Potato</h6>
+                            </div>
+                            <span class="star text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span class="text-muted small">3.5 (456)</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="price">$3 <del class="text-secondary">$5</del></span>
+                                <span>
+                                    <a href="" class="btn">+ Add</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-5.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Instant Food</p>
+                                <h6>Salted Instant Popcorn</h6>
+                            </div>
+                            <span class="star text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span class="text-muted small">4.5 (39)</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="price">$13 <del class="text-secondary">$18</del></span>
+                                <span>
+                                    <a href="" class="btn ">+ Add</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="position-absolute">
+                                <span class="badge bg-danger"> Sale</span>
+                            </div>
+                            <a href=""><img src="assets/images/product-img-6.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Dairy,Bread & Eggs</p>
+                                <h6>Blueberry Greek Yogurt</h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4.5 (189)</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="price">$18 <del>$24</del></span>
+                                    <span><a href="" class="btn "> + Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-7.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Dairy,Bread & Eggs</p>
+                                <h6>Britannia Cheese Slices</h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-muted small">5 (345)</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="price">$24</span>
+                                    <span><a href="" class="btn">+ Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-8.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Instant Food</p>
+                                <h6>Kellogg's Original Cereals </h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4 (90)</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="price">$32 <del>$35</del></span>
+                                    <span><a href="" class="btn">+ Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-9.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Snack & Munchies</p>
+                                <h6>Slurpp Millet Chocolate</h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4.5 (67)</span>
+                                </span>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <span class="price">$3 <del>$5</del></span clas>
+                                    <span><a href="" class="btn ">+ Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-10.jpg" alt="" class="w-100"></a>
+                            <div class="text">
+                                <p>Dairy,Bread & Eggs</p>
+                                <h6>Amul Butter - 500 g</h6>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <span class="text-muted small">3.5 (89)</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="price">$13 <del>$18</del></span>
+                                    <span><a href="" class="btn ">+ Add</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- POPULAR PRODUCTS ENDS -->
+
+    <section class="sale">
+        <div class="container">
+            <h3 class="">Daily Best Sells</h3>
+            <div class="row g-4 row-cols-lg-4 ">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card-body">
+                        <div class="deal position-relative">
+                            <div class="text position-absolute text-light">
+                                <b>100% Organic Coffee Beans.</b>
+                                <h6>Get the best deal before close.</h6>
+                                <a href="" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-11.jpg" alt="" class=""></a>
+                            <div class="text">
+                                <h6>Tea, Coffee & Drinks</h6>
+                                <p>Roast Ground Coffee</p>
+                            </div>
+                            <div class="d-flex justify-content-between small">
+                                <span>$13 <del>$18</del></span>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4.5 </span>
+                                </span>
+                            </div>
+                            <a href="" class="btn mt-2"> + Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-12.jpg" alt=""></a>
+                            <div class="text">
+                                <h6>Fruits & Vegetables</h6>
+                                <p>Crushed Tomatoes</p>
+                            </div>
+                            <div class="d-flex justify-content-between small">
+                                <span>$13 <del>$18</del></span>
+                                <span class="star text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4.5 </span>
+                                </span>
+                            </div>
+                            <a href="" class="btn mt-2"> + Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href=""><img src="assets/images/product-img-13.jpg" alt=""></a>
+                            <div class="text">
+                                <h6>Fruits & Vegetables</h6>
+                                <p>Golden Pineapple</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>$13 <del>$18</del></span>
+                                <span class="star text-warning small">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span class="text-muted small">4.5 </span>
+                                </span>
+                            </div>
+                            <a href="" class="btn mt-2"> + Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FEATURES -->
+
+    <section class="">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-3 col-md-6 col-12">
+                    
+                    <h3 class="fw-bold fs-5">10 minute grocery now</h3>
+                    <p class="text-secondary " style="font-size: 14px;">Get your order delivered to your doorstep at the
+                        earliest from the FreshCart pickup stores upto
+                        you.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    
+                    <h3 class="fw-bold fs-5">Best Prices & Offers</h3>
+                    <p class="text-secondary " style="font-size: 14px;">Cheaper prices than your local supermarket,
+                        great cashback offers to top it off. Get best prices
+                        & offers.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    
+                    <h3 class="fw-bold fs-5">Wide Assortment</h3>
+                    <p class="text-secondary " style="font-size: 14px;">Choose from 5000+ products across food, personal
+                        care, household, bakery, veg and non-veg & other
+                        categories.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    
+                    <h3 class="fw-bold fs-5">Easy Returns</h3>
+                    <p class="text-secondary " style="font-size: 14px;">Not satisfied with a product ? Return it at the
+                        doorstep & get a refund within hours. No
+                        questions asked <a href="" style="color: #0aad0a; text-decoration: none;">Policy.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <h5 class="mb-3">Categories</h5>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <ul class="nav flex-column">
+                                <li><a href="">Vegetables & Fruits</a></li>
+                                <li><a href="">Breakfast & instant food</a></li>
+                                <li><a href="">Bakery & Biscuits</a></li>
+                                <li><a href="">Atta, Rice & Dal</a></li>
+                                <li><a href="">Sauces & spreads</a></li>
+                                <li><a href="">Organic & gourmet</a></li>
+                                <li><a href="">Baby Care</a></li>
+                                <li><a href="">Cleaning Essentials</a></li>
+                                <li><a href="">Personal care</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <ul class="nav flex-column">
+                                <li><a href="">Dairy,Bread & eggs</a></li>
+                                <li><a href="">Cold Drinks & juices</a></li>
+                                <li><a href="">Tea, Coffee & drinks</a></li>
+                                <li><a href="">Masala,oil & more</a></li>
+                                <li><a href="">Chicken, meat & fish</a></li>
+                                <li><a href="">Paan corner</a></li>
+                                <li><a href="">Pharma & wellness</a></li>
+                                <li><a href="">Home & office</a></li>
+                                <li><a href="">Pet Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="mb-3 ">Get to know us</h5>
+                    <ul class="nav flex-column">
+                        <li><a href="">Company</a></li>
+                        <li><a href="">About </a></li>
+                        <li><a href="">Blog </a></li>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">Our value</a></li>
+                    </ul>
+                </div>
+                <div class=" col-lg-2 col-md-3 col-6">
+                    <h5 class="mb-3 ">For Consumers</h5>
+                    <ul class="nav flex-column">
+                        <li><a href="">Payments</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Product Returns</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Shop Checkout</a></li>
+                    </ul>
+                </div>
+                <div class=" col-lg-2 col-md-3 col-6">
+                    <h5 class="mb-3 ">Become a Shopper</h5>
+                    <ul class="nav flex-column">
+                        <li><a href="">Shopper Opportunities</a></li>
+                        <li><a href="">Become a Shopper</a></li>
+                        <li><a href="">Earnings</a></li>
+                        <li><a href="">Ideas & Guides</a></li>
+                        <li><a href="">New Retailers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="mb-3 ">Freshcart programs</h5>
+                    <ul class="nav flex-column">
+                        <li><a href="" class="">Freshcart programs</a></li>
+                        <li><a href="">Gift Cards</a></li>
+                        <li><a href="">Promos & Coupons</a></li>
+                        <li><a href="">Freshcart Ads</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="opacity: 0.08;">
+            <div>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <span class="text">Payment Partners</span>
+                        <span><a href=""><img src="assets/images/amazonpay.svg" alt=""></a></span>
+                        <span><a href=""><img src="assets/images/american-express.svg" alt=""></a></span>
+                        <span><a href=""><img src="assets/images/mastercard.svg" alt=""></a></span>
+                        <span><a href=""><img src="assets/images/paypal.svg" alt=""></a></span>
+                        <span><a href=""><img src="assets/images/visa.svg" alt=""></a></span>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <span class="text">Get deliveries with FreshCart </span>
+                        <span><a href=""><img src="assets/images/appstore-btn.svg" alt="" class="w-25"></a></span>
+                        <span><a href=""><img src="assets/images/googleplay-btn.svg" alt="" class="w-25"></a></span>
+                    </div>
+                </div>
+                <hr style="opacity: 0.09;">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12 text-secondary">
+                        <span style="font-size: 13px;">Copyright 2022 FreshCart eCommerce HTML Template. All rights
+                            reserved. Powered by <a href=""
+                                style="color: #0aad0a;text-decoration: none;">Codescandy.</a></span>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12 text-secondary text-end">
+                        <span style="font-size: 13px;">Follow us on</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
